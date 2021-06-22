@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:getherclus/pages/activity_page.dart';
 import 'package:getherclus/pages/home_page.dart';
+import 'package:getherclus/pages/join_activity.dart';
 import 'package:getherclus/pages/signup_page.dart';
 
 import 'pages/login_page.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "getherclus",
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: HomePage(),
+      home: JoinActivityPage(),
     );
   }
 }
